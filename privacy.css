@@ -1,0 +1,20 @@
+@font-face {
+	font-family: "ChicagoFLF";
+	src: url("https://cdn.discordapp.com/attachments/1110546433351893062/1110546536275918858/ChicagoFLF.ttf") format("truetype");
+}
+body {
+	font-family: "ChicagoFLF";
+	text-align: center;
+	margin-top: 10%;
+	text-shadow: 1px 1px #999;
+}
+a {
+	text-decoration: none;
+	color: blue;
+}
+a:visited {
+	color: blue;
+}
+a:hover {
+	color: aqua;
+}
