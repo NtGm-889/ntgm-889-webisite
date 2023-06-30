@@ -1,3 +1,3 @@
-# ntgm-889-webisite
-The source for NtGm's webisite.
+# The README section
+Uhhhhhh idk what to right here...
 https://www.ntgm-889.com/
