@@ -1,79 +1,10 @@
 <!DOCTYPE html>
-<!-- ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⢀⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣰⡣⡃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⡺⣼⡪⡨⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣔⢟⠷⡑⠑⠄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⢪⢏⢇⠇⠅⠨⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⢢⢖⣗⡷⡯⣗⢯⡫⡕⠡⢂⠢⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⢘⢮⢷⣻⣽⣳⡳⡣⡇⡃⠅⡘⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠨⠪⢯⢟⣗⣷⣳⢽⣹⡸⡈⣐⠨⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣘⢵⡻⡽⣺⡺⡝⣎⢆⢆⢔⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⢎⢎⡷⣻⢮⣳⢝⡞⡎⡎⠄⠡⢈⠢⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢐⢌⢗⢯⢯⣺⣕⣗⣗⣝⢮⢆⢃⠅⠂⡊⢂⠄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⢘⢮⢯⢗⣗⣗⢗⣵⢳⢕⢇⢎⢎⢐⢰⠐⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢐⠕⣝⢽⣳⣳⢽⣝⢮⢯⡺⡜⡌⡊⡐⠠⢡⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢘⢌⢎⣗⣗⣗⡯⣞⢽⡺⣜⢕⢅⢂⢂⢁⠢⠂⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢜⢸⢸⣺⣺⣺⡺⡽⡵⣝⢎⣇⠣⢐⢐⠠⢈⢂⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡣⡱⣹⣺⣺⣪⢯⢯⣺⡪⡧⡣⡃⠅⡂⠔⠠⠡⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⢇⢎⢞⡮⣞⡮⡯⣳⢕⣗⢝⡎⡎⢌⢐⠨⠈⡌⠄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠰⡡⡣⡻⡮⣳⢽⣝⣞⢽⢜⡵⡕⡕⡐⡐⠨⢐⢐⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡸⡰⡱⣫⢯⢯⣳⡳⡵⣫⡳⡵⣹⠰⡐⠌⠌⠄⠢⡡⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡪⡸⡸⣵⣫⢗⡷⡽⣝⡵⣝⢮⡪⣃⠢⠡⢑⠨⢈⠢⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠇⡎⣞⢞⡮⣻⡺⣝⣞⢞⢮⡣⣏⢆⠅⢅⠅⠌⠄⡣⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠰⡑⡕⡵⣻⡺⣳⣫⢗⣗⡽⡵⣝⢼⢸⢈⠢⠨⡈⡂⠥⡁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⢨⢪⢞⡵⣯⣳⢽⣝⣞⢮⡳⡵⡝⣎⠢⠡⡑⡐⠄⠣⡂⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢕⢜⢜⡽⣺⢵⣫⢗⣗⣗⡽⣪⢗⣝⢆⢇⢑⢐⠄⠅⠕⢔⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡇⢎⢞⣞⢽⡳⡽⣽⣺⡺⣺⢕⡯⡺⣜⠔⢌⠢⠨⠨⡘⢔⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢐⢕⢕⡳⣝⣗⢯⣟⣞⣞⣞⣗⢽⣪⢯⡪⣊⠢⠡⡑⡡⠘⡔⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⠰⡱⡽⡵⣫⣗⣗⣗⣗⣗⡵⡯⡮⣳⡹⡔⡡⡑⢔⢈⠢⡱⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢜⢜⢜⢮⢯⣗⣗⣗⣗⣗⢷⢽⢵⡫⣞⢮⢪⠢⠨⡂⠢⠡⢪⠂⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡇⡕⣕⡯⣗⣗⣗⣗⢷⢽⢽⢵⢯⢞⡵⣫⠮⡘⢌⠌⢌⠌⢆⢣⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠠⡣⡣⡳⣝⣗⣗⢷⢽⢽⢽⣝⢷⢝⣗⢽⡪⣇⠣⡑⢌⢂⠪⢸⠰⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠨⡪⡪⣺⣳⡳⡽⡽⡽⣝⡷⡽⣝⣗⢽⣕⢯⡺⡌⡌⡢⡂⡅⡕⡅⠂⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠨⡢⣫⢺⢜⡽⡽⡽⣝⣗⣯⣻⣺⣪⢗⣗⢗⡗⣕⢇⢇⢇⢕⢌⢂⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢇⢗⣝⢵⢝⢮⡫⣗⢗⡗⣗⢵⡳⣫⢞⢵⢹⡸⡸⡸⡨⡒⢔⠡⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠱⡱⣕⢗⡽⡵⣝⢮⡳⣝⢮⢳⢝⡎⣗⢕⡇⡧⡣⡣⡣⡱⠡⠂⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢝⢜⣗⢽⣺⣪⡳⣝⢮⡺⣕⢗⢽⡸⣕⢕⢇⢧⢣⠣⡊⠌⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⠞⢽⣺⢼⣺⢵⣫⢞⢮⡫⣣⡳⡱⡝⡜⡕⠕⠑⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠁⠈⠉⠁⠉⠀⠁⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-						  PAGE SAUCE
-
-Made with Visual Studio Code.
-
-NtGm 889 / Isaac L.
-2023
- -->
 <html>
 	<head>
-		<link rel="stylesheet" href="style.css">
-		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sorts Mill Goudy">
-		<!-- meta -->
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta charset="UTF-8">
-		<meta name="keywords" content="ntgm, ntgm8, ntgm889, ntgm 889, notgame 889, notgameateatenine, isaac l, neocities, webisite,">
-		<!-- <meta name="robots" content="noindex"> -->
-		<meta content="NtGm's Webisite" property="og:title" />
-		<meta content="The webisite of NtGm." property="og:description" />
-		<meta content="https://www.ntgm-889.com/" property="og:url" />
-		<meta content="img/embed.png" property="og:image" />
-		<meta content="#008282" data-react-helmet="true" name="theme-color" />
-		<meta name="twitter:card" content="summary_large_image">
-		<meta name="description" content="The official webisite of Isaac L; aka NtGm 889.">
-		<meta name="author" content="Isaac L.">
-		<title>[ Coming soon... ] NtGm's Webisite</title>
-		<!-- meta -->
+		<meta http-equiv="refresh" content="0; url=comingsoon.html" />
 	</head>
 	<body>
-		<img src="img/sticklyman.gif" class="construc" title="The sticklyman digs until the major update arrives.">
-		<h1>NtGm 889's Webisite.</h1>
-		<hr>
-		<p>Coming soon...</p>
-		<footer>
-			<a onclick="botTest()" id="wrong" style="cursor: pointer;">Contact NtGm via e-mail.</a><br>
-			<script src="antiBotScript.js"></script>
-			<a href="privacy.html">Privacy Policy.</a>
-		</footer>
-		<!-- <p class="updat">GITHUB_UPDATE_TEST(please ignore)</p> -->
+		<h1>Redirecting...</h1>
+		<p>If the page does not redirect, <a href="comingsoon.html">click here.</a></p>
 	</body>
 </html>
