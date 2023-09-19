@@ -3,16 +3,19 @@ body {
 	font-family: "Sorts Mill Goudy";
 	color: #999;
 	text-shadow: 2px 2px 2px #222, 3px 3px 3px #111;
-	image-rendering: pixelated;
+	image-rendering: pixelated
 }
+
 .helv {
 	font-family: 'HelveticaforTarget-Bold', sans-serif;
-	color: #999;
+	color: #999
 }
+
 .helvreg {
 	font-family: 'HelveticaforTarget', sans-serif;
-	color: #999;
+	color: #999
 }
+
 h1 {
 	clear: both;
 	font-size: 48pt;
@@ -20,30 +23,35 @@ h1 {
 	margin-bottom: -12px;
 	margin-left: 2%;
 	letter-spacing: -2px;
+	text-shadow: -1px -1px #eee, 2px 2px #111;
 }
+
 p {
 	clear: both;
 	font-size: 18pt;
 	margin-top: 12px;
 	margin-left: 3%;
 	margin-bottom: 12px;
-	letter-spacing: -1px;
+	letter-spacing: -1px
 }
+
 hr {
 	clear: both;
 	border: 3px inset #666;
 	border-radius: 2px;
-	margin-top: 0px;
-	margin-bottom: 0px;
-	filter: drop-shadow(2px 2px 2px #222);
+	margin-top: 0;
+	margin-bottom: 0;
+	filter: drop-shadow(2px 2px 2px #222)
 }
-@media screen and (max-width: 800px) {
+
+@media screen and (max-width:800px) {
 	h1 {
 		font-size: 32pt;
 		margin-top: 12%;
-		margin-bottom: -6px;
+		margin-bottom: -6px
 	}
 }
+
 .construc {
 	filter: grayscale(50%) drop-shadow(14px 24px #222) opacity(15%);
 	display: inline-block;
@@ -51,31 +59,37 @@ hr {
 	right: 5%;
 	top: 5%;
 	position: absolute;
-	z-index: -1;
+	z-index: -1
 }
-::-moz-selection{
+
+::-moz-selection {
 	color: #222;
 	background: #889;
-	text-shadow: 2px 2px 2px #222, 3px 3px 3px #777;
+	text-shadow: 2px 2px 2px #222, 3px 3px 3px #777
 }
+
 ::selection {
 	color: #222;
 	background: #999;
-	text-shadow: 2px 2px 2px #222, 3px 3px 3px #777;
+	text-shadow: 2px 2px 2px #222, 3px 3px 3px #777
 }
+
 footer {
-	margin-left: 3%;
+	margin-left: 3%
 }
+
 a {
 	color: #69a;
 	text-decoration: none;
-	transition-duration: 89ms;
+	transition-duration: 89ms
 }
+
 a:hover {
 	color: #3af;
-	text-shadow: 0px 0px 2px #18d;
-	transition-duration: 89ms;
+	text-shadow: 0 0 2px #18d;
+	transition-duration: 89ms
 }
+
 .updat {
-	font-family: Arial;
+	font-family: Arial
 }
