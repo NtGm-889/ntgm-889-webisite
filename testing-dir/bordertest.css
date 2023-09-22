@@ -1,0 +1,65 @@
+body {
+	background-image: linear-gradient(#e6f7ff, #99b3ff);
+	background-attachment: fixed;
+	background-size: cover;
+}
+.main {
+	margin: 2%;
+	background: linear-gradient(#99dfdf, #099, #99dfdf);
+	border: 1px solid #fff;
+	border-radius: 8px;
+	outline: 1px solid #036;
+}
+.selcet {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+.inner {
+	margin: 8px;
+	padding: 12px;
+	background-color: #fff;
+	border: 1px solid #036;
+	font-family: Tahoma, sans-serif;
+	color: #001a33;
+}
+.inner p {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.main h1 {
+	font-family: Trebuchet MS, Helvetica, sans-serif;
+	color: #fff;
+	padding-left: 16px;
+	text-shadow: 2px 2px 2px #366;
+}
+/* shoutouts to w3schools */
+.btn-group button {
+	background: linear-gradient(#ccc, #a6a6a6, #ccc);
+	border: 1px solid #fff;
+	border-radius: 3px;
+	outline: 1px solid #036;
+	font-family: Tahoma, sans-serif;
+	color: white;
+	text-shadow: 1px 1px 1px #001a33;
+	padding: 10px 24px;
+	cursor: pointer;
+	float: left;
+}
+.btn-group:after {
+	content: "";
+	clear: both;
+	display: table;
+}
+.btn-group button:not(:last-child) {
+	border-right: none;
+}
+.btn-group button:hover {
+	background: linear-gradient(#e6e6e6, #bfbfbf, #e6e6e6);
+}
+.btn-group button:active {
+	background: linear-gradient(#666, #333, #666);
+}
