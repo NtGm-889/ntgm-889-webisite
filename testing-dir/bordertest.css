@@ -63,3 +63,6 @@ body {
 .btn-group button:active {
 	background: linear-gradient(#666, #333, #666);
 }
+a:active {
+	color: #fc0;
+}
