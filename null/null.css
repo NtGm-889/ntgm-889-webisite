@@ -1,0 +1,22 @@
+html {
+	cursor: url('https://cdn.discordapp.com/attachments/1168246065926000650/1168247828661932092/Normal_Select.png'), auto;
+}
+body {
+	background-color: #000;
+	height: 100%;
+}
+img {
+	image-rendering: crisp-edges;
+	image-rendering: pixelated;
+	-webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none;
+}
+img.nyll-sign {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 32vh;
+	margin-bottom: auto;
+	max-width: 32vh;
+	max-height: 32vh;
+	cursor: url('https://cdn.discordapp.com/attachments/1168246065926000650/1168247828888432649/Link_Select.png'), pointer;
+}
