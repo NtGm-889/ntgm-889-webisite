@@ -1,5 +1,10 @@
 body {
-	background-color: black;
-	margin-top: 12vh;
+	background-color: #000000;
+	margin-top: 24vh;
 	image-rendering: pixelated;
+}
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
